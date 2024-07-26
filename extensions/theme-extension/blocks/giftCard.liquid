@@ -1,0 +1,45 @@
+<script src="{{ 'model.js' | asset_url }}" defer="defer"></script>
+{{ 'model.css' | asset_url | stylesheet_tag }}
+
+<div class="main_div">
+  <div class="linkForImage" data-image="{{ block.settings.modal_image | image_url }}">
+    <div class="click-order">
+      {% if block.settings.register_type == 'link' %}
+        <span>Win your full order amount back.</span>
+        <a id="showPopup" href="javascript:void(0)">Register to win.</a>
+      {% else %}
+        <button type="button" id="showPopup">Win your full order amount back. Register to win.</button>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Gift Card Pop-up",
+  "target": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "modal_image",
+      "label": "Image For Desktop"
+    },
+    {
+      "type": "select",
+      "id": "register_type",
+      "label": "Register Button Type",
+      "options": [
+        {
+          "value": "link",
+          "label": "Link"
+        },
+        {
+          "value": "button",
+          "label": "Button"
+        }
+      ],
+      "default": "link"
+    }
+  ]
+}
+{% endschema %}

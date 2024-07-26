@@ -1,0 +1,426 @@
+.hrader-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.hrader-info p {
+  font-size: 14px;
+  color: #616161;
+  line-height: 1.41;
+  font-family: "Inter";
+}
+.hrader-info a {
+  color: #005bd3;
+  font-size: 13px;
+  line-height: 1.539;
+  text-decoration: none;
+}
+.header-content h4 {
+  font-size: 30px;
+  font-family: "Inter";
+  letter-spacing: -0.3px;
+  line-height: 1.3335;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: #303030;
+}
+.header-content {
+  max-width: 1084px;
+  margin: 0 auto 47px;
+}
+.connected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 44px;
+}
+.header-content h4 + p {
+  font-size: 14px;
+  color: #616161;
+  font-weight: 400;
+  font-family: "Inter";
+}
+.connected-detail h5,
+.connected-detail p {
+  font-size: 13px;
+  color: #303030;
+  font-weight: 600;
+  font-family: "Inter";
+  margin: 0 0 8px;
+}
+.connected-detail p {
+  color: #616161;
+}
+.connected-detail {
+  flex: 1;
+}
+.connected .Polaris-ShadowBevel {
+  background: #f7f7f7;
+  max-width: 710px;
+  width: 100%;
+  padding: 32px;
+  border: 1px solid #ebebeb !important;
+  border-radius: 4px;
+}
+.connected .Polaris-ShadowBevel::before,
+.main-app-data .Polaris-ShadowBevel::before {
+  display: none;
+}
+.connected .Polaris-Box {
+  box-shadow: 0px 0px 0px 0px #00000021 inset;
+  border: 0;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #303030;
+  font-weight: 700;
+  font-family: "Inter";
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.connected .Polaris-Box p {
+  font-size: 13px;
+  color: #303030;
+  font-weight: 700;
+  font-family: "Inter";
+}
+.main-body-side-content h5 {
+  font-size: 13px;
+  font-family: "Inter";
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #303030;
+}
+
+.main-body-side-content p {
+  font-size: 13px;
+  font-family: "Inter";
+  margin-bottom: 20px;
+  color: #616161;
+}
+.main-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 44px;
+}
+
+.main-display .main-body-side-content {
+  flex: 1;
+}
+
+.main-display .main-app-data {
+  background: #f7f7f7;
+  max-width: 710px;
+  width: 100%;
+  padding: 32px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+.main-app-data h6.Polaris-Text--headingSm,
+.main-app-data .Polaris-Text--headingMd {
+  font-size: 13px;
+  font-weight: 700;
+  color: #303030;
+  margin-bottom: 4px;
+  font-family: "Inter";
+}
+.main-app-data h6.Polaris-Text--headingSm + p {
+  font-size: 13px;
+  font-family: "Inter";
+  color: #616161;
+}
+.main-app-data .Polaris-ButtonGroup {
+  margin-top: 3px;
+}
+.main-app-data .Polaris-ShadowBevel {
+  margin-bottom: 32px;
+}
+.main-app-data .Polaris-ShadowBevel:last-child {
+  margin-bottom: 0;
+}
+.main-app-data .Polaris-Button--textAlignCenter {
+  box-shadow: 0px -1px 0px 0px #b5b5b5 inset;
+  border: 1px solid #e3e3e3;
+  font-size: 12px;
+  color: #303030;
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+.main-app-data .Polaris-ShadowBevel:nth-child(2) .Polaris-Box p {
+  font-size: 13px;
+  font-family: "Inter";
+  margin-bottom: 5px;
+  color: #303030;
+}
+.main-app-data .Polaris-Text--bodyMd {
+  font-size: 13px;
+  line-height: 1.539;
+  display: block;
+  margin-bottom: 6px;
+  color: #303030;
+}
+.main-display + .Polaris-ShadowBevel {
+  margin-bottom: 44px;
+}
+.main-app-data .Polaris-Labelled__LabelWrapper {
+  margin: 0;
+  margin-top: 8px;
+}
+.main-app-data .Polaris-RangeSlider-SingleThumb__Input {
+  --p-color-bg-fill-brand: #303030;
+}
+.main-app-data .Polaris-ShadowBevel:first-child .Polaris-Box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-app-data
+  .Polaris-ShadowBevel:first-child
+  .Polaris-Box
+  .Polaris-ButtonGroup,
+.main-app-data
+  .Polaris-ShadowBevel:first-child
+  .Polaris-Box
+  .Polaris-ButtonGroup
+  .Polaris-ButtonGroup__Item {
+  margin-top: 0;
+}
+.main-app-data .Polaris-ShadowBevel:nth-child(2) .Polaris-Box {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.main-app-data .Polaris-ShadowBevel:nth-child(2) .Polaris-Box .gift-card-value {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 0;
+  background: #fff;
+  padding: 16px;
+  box-shadow: 1px 0px 0px 0px #00000021 inset;
+  border: 1px solid #b5b5b54d;
+  border-radius: 12px;
+  box-shadow: 0px 1px 0px 0px #e3e3e3 inset;
+  box-shadow: 1px 0px 0px 0px #e3e3e3 inset;
+  box-shadow: -1px 0px 0px 0px #e3e3e3 inset;
+  box-shadow: 0px -1px 0px 0px #b5b5b5 inset;
+}
+.main-app-data
+  .Polaris-ShadowBevel:nth-child(2)
+  .Polaris-Box
+  .gift-card-value
+  span {
+  font-weight: 600;
+  line-height: 1.539;
+}
+.main-app-data
+  .Polaris-ShadowBevel:nth-child(2)
+  .Polaris-Box
+  .gift-card-value
+  span
+  + span {
+  font-size: 28px;
+  line-height: 1.25;
+  margin-top: 5px;
+}
+.main-app-data .Polaris-ShadowBevel:nth-child(2) {
+  box-shadow: none;
+  border-radius: 0;
+}
+ui-nav-menu + .Polaris-Page {
+  max-width: 1100px;
+  width: 100%;
+}
+.marketing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 44px;
+}
+.marketing-wrapper .marketing {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 600;
+  color: #303030;
+}
+.marketing-wrapper .subscribers-count-wrapper {
+  flex: 0 0 710px;
+}
+.main-action-section {
+  margin-bottom: 44px;
+}
+.subscribers-count-wrapper .Polaris-Box {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 32px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+.marketing-wrapper .subscribers-count-wrapper .Polaris-ShadowBevel:before {
+  display: none;
+}
+.marketing-wrapper .subscribers-count-wrapper .Polaris-ShadowBevel {
+  border-radius: 0;
+  background: transparent;
+}
+.subscribers-count-wrapper .Polaris-Box h4 {
+  font-size: 18px;
+  color: #303030;
+  font-weight: 600;
+}
+.subscribers-count-wrapper .subscribers-count {
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid rgb(48 48 48 / 20%);
+  margin-top: 20px;
+  margin-bottom: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 12px;
+  font-size: 14px;
+  gap: 8px;
+  color: #000;
+  position: relative;
+}
+.subscribers-count-wrapper .subscribers-count:last-child {
+  margin-bottom: 0;
+}
+.subscribers-count-wrapper .subscribers-count .close-icon-wrapper {
+  position: absolute;
+  right: 14px;
+}
+.subscribers-count-wrapper
+  .subscribers-count
+  .close-icon-wrapper
+  .Polaris-Icon {
+  width: 16px;
+  height: 16px;
+}
+.main-action-section-wrapper {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 42px 32px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  margin-bottom: 70px;
+}
+
+.main-action-section .Polaris-ShadowBevel {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.main-action-section .Polaris-ShadowBevel::before {
+  display: none;
+}
+.winner-heading {
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  line-height: 1.539;
+  margin-bottom: 28px;
+}
+.main-action-section .Polaris-Box {
+  border: 1px solid rgb(48 48 48 / 20%);
+  border-radius: 12px;
+  margin-bottom: 54px;
+}
+.main-action-section .Polaris-ShadowBevel:last-child .Polaris-Box {
+  margin-bottom: 0;
+}
+.main-action-section {
+  margin-bottom: 0;
+}
+.main-action-section .Polaris-ShadowBevel + .Polaris-ShadowBevel .Polaris-Box {
+  padding: 0;
+}
+.main-action-section .Polaris-DataTable__Cell--header {
+  font-size: 12px;
+  color: #616161;
+  padding: 8px 6px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.main-action-section .Polaris-DataTable__Cell--firstColumn {
+  font-weight: 600;
+  color: #303030;
+}
+.main-action-section .Polaris-DataTable__Cell {
+  color: #303030;
+}
+.main-action-section .Polaris-ShadowBevel:first-child .Polaris-Box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-action-section
+  .Polaris-ShadowBevel:first-child
+  .Polaris-Box
+  .Polaris-ButtonGroup {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.main-action-section
+  .Polaris-ShadowBevel:first-child
+  .Polaris-Box
+  .Polaris-ButtonGroup__Item:last-child
+  button.Polaris-Button {
+  background: #333232;
+  border-color: #333232;
+  color: #fff;
+  box-shadow: none;
+}
+.subscribers-count-wrapper .subscribers-count {
+  gap: 5px;
+}
+.subscribers-count-wrapper .subscribers-count b:nth-child(3) {
+  margin-left: 20px;
+}
+.main-action-section .checkboxsvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-action-section .Polaris-DataTable__Cell--header:nth-child(4),
+.main-action-section .Polaris-DataTable__Cell--header:nth-child(5) {
+  text-align: center;
+}
+.main-action-section .Polaris-DataTable__Cell:nth-child(6),
+.main-action-section .Polaris-DataTable__Cell:nth-child(7),
+.main-action-section .Polaris-DataTable__Cell:nth-child(8) {
+  text-align: center;
+}
+.connected .Polaris-Box button.Polaris-Button {
+  background: #333232;
+  border-color: #333232;
+  color: #fff;
+  box-shadow: none;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.connected .Polaris-Box button.Polaris-Button:hover {
+  opacity: 0.9;
+}
+.main-app-data .selected-date-range button {
+  background: #333232;
+  border-color: #333232;
+  color: #fff;
+  box-shadow: none;
+}
